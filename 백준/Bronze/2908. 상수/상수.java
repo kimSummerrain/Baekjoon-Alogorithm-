@@ -1,26 +1,30 @@
 
+
 import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String n = sc.next();
-        String m = sc.next();
+        String[] n = sc.next().split("");
+        String[] m = sc.next().split("");
 
-        String n_2 ="";
-        String m_2 ="";
 
-        for(int i=n.length()-1;i>=0;i--){
-            n_2+=n.charAt(i);
-            m_2+=m.charAt(i);
+        for (int i = 2; i >= 0; i--) {
+                if(Integer.parseInt(n[i])>Integer.parseInt(m[i])){
+                    for (int j = 2; j >= 0; j--){
+                        System.out.print(n[j]);
+                    }
+                    break;
+
+                }else  if(Integer.parseInt(m[i])>Integer.parseInt(n[i])){
+                    for (int k = 2; k >= 0; k--){
+                        System.out.print(m[k]);
+                    }
+                    break;
+                }
         }
 
-        if(Integer.parseInt(n_2)>Integer.parseInt(m_2)){
-            System.out.println(n_2);
-        }else{
-            System.out.println(m_2);
-        }
 
 
     }
