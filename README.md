@@ -1,4 +1,4 @@
-# 🏆 Baekjoon Algorithm Solutions
+# 🌳Baekjoon Algorithm Solutions🌳
 
 자동 푸시 저장소 (via [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub))  
 
