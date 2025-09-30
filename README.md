@@ -6,7 +6,7 @@
 
 ## 📌 Profiles by Language  
 
-### 🐍 Python (by **KDE**)  
+### 🐍 Python (by **kde8485**)  
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kdeun8485)](https://solved.ac/kdeun8485/)  
 
 ---
